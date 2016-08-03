@@ -2,6 +2,22 @@ html, body {
 	height: 100%;
 	background-color: #EAEAEA;
 }
+
+/*Site wide style*/
+
+a:hover {
+	text-decoration: underline
+}
+
+a.send:hover {
+	text-decoration: underline;
+}
+
+div a {
+	text-decoration: none;
+}
+
+
 /*navigation*/
 nav {
 	background-color: #FAFAFA;
@@ -14,6 +30,7 @@ nav {
 
 nav a {
 	margin: 25px;
+	text-decoration: none;
 }
 
 nav ul {
@@ -22,6 +39,17 @@ nav ul {
 
 nav li {
 	display: inline-block;
+	margin-top: 30px;
+}
+
+nav i.fa-diamond {
+	color: #D36F7E;
+	font-size: 30px;
+}
+
+nav i span {
+	color: #2d2d2d;
+	font-family: 'Lobster', sans-serif;
 }
 /*about me/my work/intro section*/
 .intro {
@@ -31,10 +59,14 @@ nav li {
 
 .intro img{
 	border-radius: 10px;
+	width: 1250px;
 }
 
 h1 {
 	font-size: 25px;
+}
+h1 span {
+	color: #D36F7E;;
 }
 
 h1 p {
@@ -45,6 +77,7 @@ h2 {
 	color: #EFA5B7;
 	font-size: 20px;
 	text-align: center;
+	font-family: 'Lobster', sans-serif;
 }
 
 section p {
@@ -66,6 +99,7 @@ section p {
 /*work images*/
 ul {
 	display: inline-flex;
+	margin: -35px;
 }
 
 ul span {
@@ -73,20 +107,95 @@ ul span {
 	font-size: 10px;
 }
 
-div img {
-	text-align: center;
+div.top {
 	display: inline;
+	margin-left: 165px;
+}
+
+div.top li {
+	margin: 50px;
+}
+
+div.top img {
 	border-radius: 10px;
-	width: 75%;
-	margin: 20px;
+	width: 200%;
 }
 
-div a {
-	text-decoration: none;
-	margin: 0 auto;
+div.bottom {
 	display: inline;
+	margin-left: 160px;
 }
 
- {
-	padding: 45px 150px;
+div.bottom li {
+	margin: 50px;
+}
+
+div.bottom img {
+	border-radius: 10px;
+	width: 200%;
+}
+
+div.thanks {
+	text-align: center;
+	padding: 30px;
+	font-family: 'Lobster', sans-serif;
+	font-size: 25px;
+	color: #D36F7E;
+}
+/*Footer/Form*/
+footer {
+	border-style: solid;
+	border-color: #2d2d2d;
+	border-width: 100px;
+	background-color: #2d2d2d;
+}
+
+form {
+	background-color: #2d2d2d;
+	margin: -80px; 	
+}
+
+form p {
+	color: #D36F7E;
+	font-family: 'Lobster', sans-serif;
+	font-size: 25px;
+}
+
+form a.send {
+	font-size: 20px;
+	text-decoration: none;
+	color: #fff;
+}
+
+input.top {
+	width: 50%;
+	
+}
+
+input.middle{
+	width: 50%;
+	margin-top: 5px;
+}
+
+input.bottom {
+	width: 50%;
+	height: 75px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+div.socialmedia {
+	display: inline-block;
+	float: right;
+	position: relative;
+	top: -80px;
+}
+
+div.socialmedia a {
+	border-radius: 15px;
+	background-color: #D36F7E;
+	padding: 7px;
+	color: #2d2d2d;
+	text-decoration: none;
+	margin: 5px;
 }
